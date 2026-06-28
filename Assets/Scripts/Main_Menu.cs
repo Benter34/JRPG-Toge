@@ -50,6 +50,10 @@ public class Main_Menu : MonoBehaviour
         if (tutorialPanel != null)
             tutorialPanel.SetActive(false);
     }
+    public void Quit()
+    {
+        QuitGame();
+    }
 
     public void QuitGame()
     {
